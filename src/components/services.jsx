@@ -12,11 +12,11 @@ import {
 const Services = () => {
   return (
     <div>
-      <Text fontSize="2xl" textAlign="center" mb={18} mt={24}>
-        Servicios
+      <Text fontSize="2xl" textAlign="center" mb={18} mt={24} fontWeight={700}>
+        SERVICIOS
       </Text>
       <Flex>
-        <Box>
+        <Box p={4}>
           <Card>
             <CardBody>
               <Image
@@ -42,7 +42,7 @@ const Services = () => {
             </CardBody>
           </Card>
         </Box>
-        <Box>
+        <Box p={4}>
           <Card>
             <CardBody>
               <Image
@@ -68,7 +68,7 @@ const Services = () => {
             </CardBody>
           </Card>
         </Box>
-        <Box>
+        <Box p={4}>
           <Card>
             <CardBody>
               <Image
